@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- gg fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Jost:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Titan+One&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+    <!-- bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="header " id="header">
+        <div class="wrapper">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        12B1
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i data-feather="menu" class="text-white"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TRANG CHỦ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gioithieu">giới thiệu </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hinhanh">hình ảnh </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tho">THƠ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#truyenngan">TRUYỆN NGẮN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#truyencuoi">TRUYỆN CƯỜI</a>
+                            </li>
+
+                        </ul>
+                        <form class="ms-auto d-none d-lg-block">
+                            <a class="btn-default px-btn " href="#lienhe">LIÊN HỆ</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <section class="slider ">
+        <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Teacher's Day</h1>
+                        <p>
+                            Lớp 12B1 nhiệt liệt chào mừng ngày Nhà Giáo Việt Nam 20/11
+                        </p>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Teacher's Day</h1>
+                        <p>
+                            Tích cực học tập thật tốt để chào mừng ngày Nhà Giáo Việt Nam
+                        </p>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Teacher's Day</h1>
+                        <p>
+                            Tích cực học tập thật tốt để chào mừng ngày Nhà Giáo Việt Nam
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev btn-arrow" type="button" data-bs-target="#carousel-1"
+                data-bs-slide="prev">
+
+            </button>
+            <button class="carousel-control-next btn-arrow" type="button" data-bs-target="#carousel-1"
+                data-bs-slide="next">
+
+            </button>
+        </div>
+
+    </section>
+
+    <section class="about pt-5 " id="gioithieu">
+        <div class="container">
+            <div class="title pt-5">
+                Giới thiệu
+            </div>
+            <div class="row">
+                <div class="col-6 left">
+                    <img src="./img/about1.png" alt="">
+                </div>
+                <div class="col-6 right">
+                    <div class="content">
+                        <h2>Chào mừng bạn đến với chuyến tàu Thanh Xuân của B1K5</h2>
+                        <p class="m-0"> Chuyến tàu mang mã số 2022 <br>
+                        <p class="m-0"> Ngày khởi hành: 5-9-2022</p>
+                        <p class="m-0"> Người lái tàu: Nguyễn Thị Oanh</p>
+                        <p class="m-0"> Số hành khách: 44</p>
+                        <p> Chúc mừng các hành khách hoàn thành 2/3 chặng đường.
+                            xin
+                            trân trọng thông báo chuyến tàu
+                            thanh xuân mang mã số 2022 sắp
+                            cập bến. chỉ còn vài phút nữa quý khách sẽ bước sang trang mới của cuộc đời. trân trọng
+                            thông báo quý khách chuẩn bị tư
+                            trang, làm thủ tục xuống tàu...
+                            xin nhắc lại: "Đây là Chuyến tàu Thanh xuân, chuyến tàu chỉ có duy nhất một tuyến đi..</p>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tho -->
+    <section class="tho pt-5 section-pb  " id="tho">
+        <div class="container">
+            <div class="title">
+                Thơ
+
+            </div>
+            <div class="row">
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+
+                    <div class="box ">
+                        <div class="thumbnail">
+                            <a href="./tho/tho1.html">
+                                <img src="./img/tho1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3 class="text-white">
+                                    <a href="./tho/tho1.html">Bài thơ</a>
+                                </h3>
+                                <h2>
+                                    <a href="./tho/tho1.html">Giáo viên Bến Hải</a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p>Ngôi trường Bến Hải tôi thương yêu <br>
+                                    ... <span>[Đọc tiếp]</span></p>
+                            </div>
+                        </div>
+                        <a href="./tho/tho1.html" target="_blank" class="transparent-link"></a>
+                    </div>
+                </div>
+
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/tho2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3>
+                                    <a href="#">Bài thơ</a>
+                                </h3>
+                                <h2>
+                                    <a href="#"> Công ơn<nav></nav></a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p>Thế là tháng mười một
+                                    <br>
+                                    ... <span>[Đọc tiếp]</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <a href="./tho/tho2.html" target="_blank" class="transparent-link"></a>
+                    </div>
+                </div>
+
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/tho3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3>
+                                    <a href="#">Bài thơ</a>
+                                </h3>
+                                <h2>
+                                    <a href="#"> Nhớ</a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p>Hoa phượng treo bóng hè trên cao
+                                    <br>
+                                    ... <span>[Đọc tiếp]</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <a href="./tho/tho3.html" target="_blank" class="transparent-link"></a>
+                    </div>
+                </div>
+
+                <div class=" item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/tho4.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3>
+                                    <a href="#">Bài thơ</a>
+                                </h3>
+                                <h2>
+                                    <a href="#"> Trang giáo án<nav></nav></a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p>Ngày cuối cô xếp lại trang giáo án
+                                    <br>
+                                    ... <span>[Đọc tiếp]</span>
+                                </p>
+
+                            </div>
+                            <a href="#" class="transparent-link"></a>
+                        </div>
+                        <a href="./tho/tho4.html" target="_blank" class="transparent-link"></a>
+                    </div>
+
+                </div>
+
+                <div class=" item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/tho5.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3>
+                                    <a href="#">Bài thơ</a>
+                                </h3>
+                                <h2>
+                                    <a href="#"> Ơn thầy cô<nav></nav></a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p>Muốn sang thì bắc cầu Kiều
+                                    <br>
+                                    ... <span>[Đọc tiếp]</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <a href="./tho/tho5.html" target="_blank" class="transparent-link"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- truyen ngan -->
+    <section class="tho pt-5 bg-6 section-pb section-m " id="truyenngan">
+        <div class="container">
+            <div class="title">
+                Truyện ngắn
+            </div>
+            <div class="row">
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box ">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/truyenngan1.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3 class="text-white">
+                                    <a href="#">Truyện ngắn</a>
+                                </h3>
+                                <h2>
+                                    <a href="#">Ơn thầy cô</a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p><span>[Nhấn vào để đọc tiếp ...]</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="transparent-link"></a>
+                    </div>
+                </div>
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box ">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/truyenngan2.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3 class="text-white">
+                                    <a href="#">Truyện ngắn</a>
+                                </h3>
+                                <h2>
+                                    <a href="#">Ơn thầy cô</a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p><span>[Nhấn vào để đọc tiếp ...]</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="transparent-link"></a>
+                    </div>
+                </div>
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box ">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/truyenngan3.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3 class="text-white">
+                                    <a href="#">Truyện ngắn</a>
+                                </h3>
+                                <h2>
+                                    <a href="#">Ơn thầy cô</a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p><span>[Nhấn vào để đọc tiếp ...]</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="transparent-link"></a>
+                    </div>
+                </div>
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box ">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/truyengan4.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3 class="text-white">
+                                    <a href="#">Truyện ngắn</a>
+                                </h3>
+                                <h2>
+                                    <a href="#">Ơn thầy cô</a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p><span>[Nhấn vào để đọc tiếp ...]</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="transparent-link"></a>
+                    </div>
+                </div>
+                <div class="item col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box ">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img src="./img/truyengan5.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <div class="heading">
+                                <h3 class="text-white">
+                                    <a href="#">Truyện ngắn</a>
+                                </h3>
+                                <h2>
+                                    <a href="#">Ơn thầy cô</a>
+                                </h2>
+                            </div>
+                            <div class="heading-hover">
+                                <p><span>[Nhấn vào để đọc tiếp ...]</span>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="transparent-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-7">
+                    <h4 class="pt-3">Cùng nhau đến với những câu chuyện cười nào!</h4>
+                </div>
+                <div class="col-lg-3 col-md-5 text-center text-md-end ">
+                    <img src="./img/iconcuoi.png" alt="" width="100px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio section">
+        <div class="title">
+            LATEST PROJECTS
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 left ">
+                    <a href="#">
+                        <div class="portfolio-img">
+                            <img src="./img/booking.PNG" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="offset-1 col-5 right ">
+                    <div class="content">
+                        <h4>
+                            Booking Movie
+                        </h4>
+                        <h2>My Portfolio</h2>
+                        <p>Displaying movies on the website, user can view
+                            detailed information and book tickets.
+                        </p>
+                        <p>HTML, CSS, ReactJS, Axios, Ant-Design, Redux,
+                            Slick-Slider, ...</p>
+                        <a class="btn-default px-btn " href="#">VIEW PROJECT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" offset-1 col-5 right ">
+                    <div class="content">
+                        <h4>
+                            WEB DESIGN
+                        </h4>
+                        <h2>My Portfolio</h2>
+                        <p>My portfolio where you can get my information
+                            online and visit my done projects</p>
+                        <p>HTML5, CSS3, Animate, ...</p>
+                        <a class="btn-default px-btn " href="#">VIEW PROJECT</a>
+                    </div>
+                </div>
+                <div class="col-6 left ">
+                    <a href="#">
+                        <div class="portfolio-img">
+                            <img src="./img/booking.PNG" alt="">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact section" id="lienhe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <h2>Liên lạc</h2>
+                        <p>Lớp 12B1 chúng tôi rất luôn lắng nghe ý kiến từ bạn.</p>
+                        <form class="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Họ tên</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Họ tên *">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Email *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Số điện thoại</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Số điện thoại *">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label" for="">Góp ý</label>
+                                <textarea class="form-control" name="" id="" cols="30" rows="5"
+                                    placeholder="Góp ý *"></textarea>
+
+                                </textarea>
+                            </div>
+                            <a class="btn-default px-btn" href="#">GỬI</a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 ms-auto col-xl-4 right">
+                    <img src="./img/contact.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 py-2">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 py-2 text-center text-md-end">
+                    <p>© 2022 copyright all right reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- back to top -->
+    <div class="progress-wrap">
+        <a href="#header">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+        crossorigin="anonymous "></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+
+    <!-- feather js (icon) -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- typed animation -->
+    <script>
+        var typing = new Typed(".text", {
+            strings: ["", "Front-end Developer"],
+            typeSpeed: 100,
+            backSpeed: 40,
+            loop: true,
+        });
+    </script>
+
+    <!-- js back to top -->
+    <script>
+        //Scroll back to top
+
+        (function ($) {
+            "use strict";
+
+            $(document).ready(function () {
+                "use strict";
+
+                var progressPath = document.querySelector('.progress-wrap path');
+                var pathLength = progressPath.getTotalLength();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+                progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+                progressPath.style.strokeDashoffset = pathLength;
+                progressPath.getBoundingClientRect();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+                var updateProgress = function () {
+                    var scroll = $(window).scrollTop();
+                    var height = $(document).height() - $(window).height();
+                    var progress = pathLength - (scroll * pathLength / height);
+                    progressPath.style.strokeDashoffset = progress;
+                }
+                updateProgress();
+                $(window).scroll(updateProgress);
+                var offset = 50;
+                var duration = 550;
+                jQuery(window).on('scroll', function () {
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery('.progress-wrap').addClass('active-progress');
+                    } else {
+                        jQuery('.progress-wrap').removeClass('active-progress');
+                    }
+                });
+                jQuery('.progress-wrap').on('click', function (event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({
+                        scrollTop: 0
+                    }, duration);
+                    return false;
+                })
+
+
+            });
+
+        })(jQuery);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.section-max {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgb(55 55 55 / 8%);
+}
+
+.header .nav-link {
+  color: #000;
+}
+
+/* content */
+.content .breadcrumb a {
+  color: rgb(0, 0, 0);
+}
+.content .breadcrumb li {
+  color: rgb(39, 111, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content .title p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+  color: #b50000;
+  margin: 0 0 25px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+.content .left img {
+  width: 100%;
+}
+.content .right {
+  padding-left: 100px;
+}
+.content .right p {
+  color: rgb(49, 49, 49);
+  font-size: 18px;
+  line-height: 1.6;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.content .right p span {
+  color: #a60000;
+}
