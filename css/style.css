@@ -2,7 +2,7 @@
 
 html,
 body {
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto", sans-serif;
 
   scroll-behavior: smooth;
 }
@@ -32,42 +32,31 @@ a {
 }
 /* ------header section------- */
 /* button */
-.btn-default {
-  background: #fd4766;
-  border-color: #fd4766;
-  color: #fff;
-}
-.px-btn {
-  padding: 8px 20px;
-  border: 2px solid transparent;
-  font-size: 14px;
-  line-height: 1.5;
-  text-decoration: none;
+
+.btn-gradient {
+  padding: 20px 35px;
+  font-size: 15px;
   font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  transition: ease all 0.35s;
-  display: inline-block;
-}
-.btn-default:hover {
-  background: #373737;
-  border-color: #373737;
-  box-shadow: 5px 5px 0 -2px #fd4766;
-  color: #fff;
-}
-.px-btn-theme {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: #373737;
-  box-shadow: 5px 5px 0 -2px #fd4766;
-}
-.px-btn-theme:hover {
-  background: #fd4766;
-  border-color: #fd4766;
-  box-shadow: 5px 5px 0 -2px #0a0a0a;
-  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #fd4766 0,
+    #f8ae56 51%,
+    #fd4766 100%
+  );
+  background-size: 200%;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  border-radius: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 1.2;
+  display: block;
 }
 
+.btn-gradient:hover {
+  background-position: right center;
+  color: #fff;
+}
 /* title */
 .title {
   font-size: 50px;
@@ -133,7 +122,7 @@ a {
   border-radius: 10px;
   transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1),
     box-shadow 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
-  height: 500px;
+  height: 415px;
 }
 
 .box:hover {
@@ -324,6 +313,7 @@ a {
   width: 8px;
   height: 8px;
   border-radius: 50%;
+
   border: 2px solid #fd4766;
   background-color: transparent;
 }
@@ -378,8 +368,14 @@ a {
 }
 
 .slider .btn-arrow:hover {
-  border-color: #fd4766;
-  background-color: #fd4766;
+  /* border-color: #fd4766; */
+  background-image: linear-gradient(
+    to right,
+    #fd4766 0,
+    #f8ae56 51%,
+    #fd4766 100%
+  );
+  background-size: 200%;
 }
 
 /* about */
@@ -644,44 +640,42 @@ a {
   margin: 0;
 }
 
-/* portfolio */
-.portfolio {
-  background-color: rgba(254, 196, 72, 0.1);
+/* plan */
+.plan {
+  padding-top: 115px;
+  background-image: url(../img/bg16.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
-.portfolio .row {
-  margin-bottom: 100px;
-}
-.portfolio .left .portfolio-img {
-  border: 2px solid #373737;
+
+.plan .row .item {
+  padding: 35px 60px;
+  background-color: #ffffff;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
+  border-image: 100 round;
   transition: all 0.5s;
 }
-.portfolio .left .portfolio-img:hover {
-  box-shadow: 5px 5px 0 0 #373737;
-}
-.portfolio .left img {
-  width: 100%;
+
+.plan .item:hover {
+  /* Round: Lặp lại hình ảnh cho các cạnh  */
+  border-image: url(../img/br.png) 1 round;
 }
 
-.portfolio .right h4 {
-  display: inline-block;
-  padding: 8px 20px;
-  background: rgba(255, 101, 28, 0.2);
-  color: #373737;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-size: 12px;
-  border-radius: 30px;
-  margin-bottom: 40px;
+.plan .item img {
+  width: 50%;
 }
 
-.portfolio .right h2 {
-  color: #373737;
+.plan .item p {
+  font-size: 18px;
+  color: #262626;
   font-weight: 600;
-  font-size: 32px;
-  margin-bottom: 20px;
 }
-.portfolio .right p:last-of-type {
-  margin-bottom: 40px;
+
+.plan .item .btn-gradient {
+  margin: 0 auto;
 }
 
 /* contact */
@@ -858,3 +852,22 @@ a {
   transition: none;
 }
 /* End Back To Top */
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .slider .btn-arrow {
+    display: none;
+  }
+  .about .right {
+    padding: 20px;
+  }
+  .hinhanh .item img {
+    width: 100%;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .section {
+    padding-top: 100px;
+  }
+}
