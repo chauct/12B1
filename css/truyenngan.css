@@ -4,10 +4,12 @@
 }
 
 .header {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 0.125rem 0.25rem rgb(55 55 55 / 8%);
 }
-
+.text-white {
+  color: #000 !important;
+}
 .header .nav-link {
   color: #000;
 }
@@ -51,4 +53,24 @@
   color: rgb(63, 63, 63);
   line-height: 1.6;
   text-indent: 45px;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .slider .btn-arrow {
+    display: none;
+  }
+  .content img {
+    width: 100%;
+  }
+  .content .right {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+  .section {
+    padding-top: 100px;
+  }
 }

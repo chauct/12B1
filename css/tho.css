@@ -7,6 +7,9 @@
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0.125rem 0.25rem rgb(55 55 55 / 8%);
 }
+.text-white {
+  color: #000 !important;
+}
 
 .header .nav-link {
   color: #000;
@@ -49,22 +52,13 @@
 .content .right p span {
   color: #a60000;
 }
-@media screen and (max-width: 768px) {
-  [type="button"]:not(:disabled),
-  [type="reset"]:not(:disabled),
-  [type="submit"]:not(:disabled),
-  button:not(:disabled) {
-    cursor: pointer;
-    color: #000;
-  }
-}
 
 @media screen and (max-width: 576px) {
   .content .title p {
     font-size: 1.5rem;
   }
   .content .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .content .right {
